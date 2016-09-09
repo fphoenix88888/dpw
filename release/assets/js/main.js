@@ -59,9 +59,9 @@ jQuery(function($) {
 		social_tools: false
 	});	
 
-	//tooltip
+});
+
+//tooltip
 	$(document).ready(function(){
 		$('[data-toggle="tooltip"]').tooltip(); 
 	});
-});
-
