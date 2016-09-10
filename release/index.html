@@ -14,16 +14,11 @@
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
         <![endif]-->       
-        <link rel="shortcut icon" href="assets/images/ico/favicon.ico">
+        <!-- <link rel="shortcut icon" href="assets/images/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-        <style>
-            .tooltip-inner {
-                min-width: 65px; //the minimum width
-            }
-        </style>
+        <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png"> -->
     </head> <!-- head -->
     <body>
         <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -64,13 +59,13 @@
                                 <li><a href="works.html"><i class="el el-book"></i> 所有作品</a></li>
                             </ul> <!-- ul -->
                         </li> <!-- li -->
-                        <li><a href=""><i class="el el-calendar"></i> 活動快遞</a></li>
-                        <li><a href=""><i class="el el-download"></i> 下載中心</a></li>
-                        <li><a href=""><i class="el el-envelope"></i> 聯絡我們</a></li>
+                        <li><a href="events.html"><i class="el el-calendar"></i> 活動快遞</a></li>
+                        <li><a href="downloads.html"><i class="el el-download"></i> 下載中心</a></li>
+                        <li><a href="contact.html"><i class="el el-envelope"></i> 聯絡我們</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="el el-info-circle"></i> 更多 <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://blog.dpw-tw.lionfree.net" target="_blank"><i class="el el-book"></i> 站長日誌</a></li>
+                                <li><a href="http://blog.dpw-tw.lionfree.net" target="_blank"><i class="el el-rss"></i> 站長日誌</a></li>
                                 <li><a href="http://gorum.dpw-tw.lionfree.net" target="_blank"><i class="el el-website"></i> 官方論壇</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">常用資訊</li>
@@ -79,9 +74,10 @@
                                 <li><a href="about/licenses.html"><i class="el el-file"></i> 產品授權合約暨版權聲明</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-header">網站連結</li>
-                                <li><a href="http://dpwblog.wordpress.com" target="_blank"><i class="el el-book"></i> 官方部落格</a></li>
+                                <li><a href="http://dpwblog.wordpress.com" target="_blank"><i class="el el-rss"></i> 官方部落格</a></li>
                                 <li><a href="http://live.dpw-tw.lionfree.net" target="_blank"><i class="el el-play"></i> 線上實況轉播</a></li>
                                 <li><a href="http://dws.dpw-tw.lionfree.net" target="_blank"><i class="el el-website"></i> 筑夢翼創意工作室</a></li>
+                                <li><a href="http://wiki.dpw-tw.lionfree.net" target="_blank"><i class="el el-website"></i> 官方維基百科</a></li>
                             </ul> <!-- ul -->
                         </li> <!-- li -->
                     </ul> <!-- ul -->
@@ -89,7 +85,232 @@
             </div> <!-- container -->
         </header> <!-- header -->
 
+        <section id="main-slider" class="no-margin">
+        <div class="carousel slide wet-asphalt">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+            </ol> <!-- ol -->
+            <div class="carousel-inner">
+                <div class="item active" style="background-image: url(assets/images/slider/bg1.jpg)">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="carousel-content centered">
+                                    <h2 class="animation animated-item-1">歡迎蒞臨 龍鳳之谷</h2>
+                                    <p class="animation animated-item-2">這裡是我們專屬的秘密基地！</p>
+                                </div> <!-- div -->
+                            </div> <!-- col-sm-12 -->
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                </div><!--/.item-->
+            </div> <!-- div -->
+            <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                <i class="icon-angle-left"></i>
+            </a>
+            <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                <i class="icon-angle-right"></i>
+            </a>
+        </section><!--/#main-slider-->
 
+        <section id="services" class="emerald">
+            <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="el el-book el-md"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">易於使用</h3>
+                            <p>您可以很輕鬆地使用我們的產品或服務，無須費心學習。</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="el el-heart el-md"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">輕巧無負擔</h3>
+                            <p>在功能不變的情況下，不占用過多系統資源，減輕您的裝置上的負擔。</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+                <div class="col-md-4 col-sm-6">
+                    <div class="media">
+                        <div class="pull-left">
+                            <i class="el el-opensource el-md"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">開放原始碼</h3>
+                            <p>所有的產品或服務，我們一律開放原始碼，讓更多的人一同參與。</p>
+                        </div>
+                    </div>
+                </div><!--/.col-md-4-->
+            </div>
+        </div>
+        </section> <!--/#services-->
+
+        <section id="recent-works">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3>我們目前的作品</h3>
+                        <p>截至目前為止我們所創作的作品都會顯示在右側</p>
+                        <div class="btn-group">
+                            <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
+                            <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
+                        </div><!-- div -->
+                        <p class="gap"></p>
+                    </div> <!-- div -->
+                    <div class="col-md-9">
+                        <div id="scroller" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="row">
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="assets/images/portfolio/recent/fvexpress.png" alt="">
+                                                    <h5>
+                                                        File Viewer Express&trade;系列
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="File Viewer Express&trade;系列" href="assets/images/portfolio/full/fvexpress.-full.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div> <!-- div -->
+                                                </div> <!-- div -->
+                                            </div> <!-- div -->
+                                        </div> <!-- div -->
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="assets/images/portfolio/recent/ffaclient.png" alt="">
+                                                    <h5>
+                                                        FFA Client&trade;系列
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="FFA Client&trade;系列" href="assets/images/portfolio/full/ffaclient-full.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div> <!-- div -->
+                                                </div> <!-- div -->
+                                            </div> <!-- div -->
+                                        </div> <!-- div --> 
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="assets/images/portfolio/recent/maze.png" alt="">
+                                                    <h5>
+                                                        迷宮大進擊&trade;
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="迷宮大進擊&trade;" href="assets/images/portfolio/full/maze-full.png" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div> <!-- div -->
+                                                </div> <!-- div -->
+                                            </div> <!-- div -->
+                                        </div> <!-- div -->
+                                    </div> <!-- div -->
+                                </div><!--/.item-->
+                                <div class="item">
+                                    <div class="row">  
+                                        <div class="col-xs-4">
+                                            <div class="portfolio-item">
+                                                <div class="item-inner">
+                                                    <img class="img-responsive" src="assets/images/portfolio/recent/dpwconsole.png" alt="">
+                                                    <h5>
+                                                        DPW Console&trade;(即將登場)
+                                                    </h5>
+                                                    <div class="overlay">
+                                                        <a class="preview btn btn-danger" title="DPW Console&trade;(即將登場)" href="assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                    </div> <!-- div -->
+                                                </div> <!-- div -->
+                                            </div> <!-- div -->
+                                        </div> <!-- div -->
+                                    </div> <!-- div -->
+                                </div><!--/.item-->
+                            </div> <!-- div -->
+                        </div> <!-- div -->
+                    </div> <!-- div -->
+                </div> <!-- div -->
+            </div> <!-- div -->                     
+        </section><!--/#recent-works-->
+
+        <section id="testimonial" class="alizarin">
+            <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="center">
+                        <h2>客戶經驗談</h2>
+                        <p>您的寶貴意見是我們的原動力</p>
+                    </div>
+                    <div class="gap"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>Coming Soon...</p>
+                                <small>Coming Soon... <!-- <cite title="Source Title">Source Title</cite> --></small>
+                            </blockquote>
+                            <blockquote>
+                                <p>Coming Soon...</p>
+                                <small>Coming Soon... <!-- <cite title="Source Title">Source Title</cite> --></small>
+                            </blockquote>
+                        </div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>Coming Soon...</p>
+                                <small>Coming Soon... <!-- <cite title="Source Title">Source Title</cite> --></small>
+                            </blockquote>
+                            <blockquote>
+                                <p>Coming Soon...</p>
+                                <small>Coming Soon... <!-- <cite title="Source Title">Source Title</cite> --></small>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section><!--/#testimonial-->
+
+        <section id="bottom" class="wet-asphalt">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h4>關於龍鳳之谷</h4>
+                        <p>
+                            十多年間，從一個簡陋到不行的網站，到今日邁入RWD世代，我們不斷的精進自我，持續成長。
+                        </p>
+                        <a href="about.html">更多資訊</a>
+                    </div> <!-- div -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>快速連結</h4>
+                        <div>
+                            <ul class="arrow">  
+                                <li><a href="about/privacy.html"><i class="el el-file"></i> 隱私權政策</a></li>
+                                <li><a href="about/terms.html"><i class="el el-file"></i> 網站使用條約</a></li>
+                                <li><a href="about/licenses.html"><i class="el el-file"></i> 產品授權合約暨版權聲明</a></li>
+                            </ul> <!-- ul -->
+                        </div> <!-- div -->
+                    </div> <!-- div -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>最新消息</h4>
+                        <div>
+                            <ul class="arrow">
+                                <li><a href="news/detail-D1422D07-C115-4038-BF95-42624575B945.html">新版網站改版上線</a></li>
+                            </ul> <!-- ul -->
+                        </div> <!-- div -->
+                        <br><a href="news.html">更多資訊</a>
+                    </div> <!-- div -->
+
+                    <div class="col-md-3 col-sm-6">
+                        <h4>聯絡我們</h4>
+                        <p>
+                            <i class="el el-envelope"></i> <a href="mailto:support@dpw-tw.lionfree.net">support@dpw-tw.lionfree.net</a>
+                        </p>
+                    </div> <!-- div -->
+                </div> <!-- div -->
+            </div> <!-- div -->
+        </section><!--/#bottom-->
 
         <footer id="footer" class="midnight-blue">
             <div class="container">
