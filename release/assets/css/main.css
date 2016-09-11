@@ -706,6 +706,18 @@ ul.tag-cloud li {
 .btn-social.btn-google-plus:hover {
   background: #e36957;
 }
+.btn-social.btn-plurk {
+  background: #ff6000;
+}
+.btn-social.btn-plurk:hover {
+  background: #ff9933;
+}
+.btn-social.btn-youtube {
+  background: #ff0000;
+}
+.btn-social.btn-youtube:hover {
+  background: #e36957;
+}
 .btn-social:hover {
   color: #fff;
 }
