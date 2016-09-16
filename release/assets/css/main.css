@@ -1124,3 +1124,7 @@ ul.faq li > div h3 {
 #footer .tooltip-inner {
   min-width: 65px; /*the minimum width*/
 }
+
+#news-content {
+  margin-bottom: 150px;
+}
