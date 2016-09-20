@@ -1128,3 +1128,15 @@ ul.faq li > div h3 {
 #news-content {
   margin-bottom: 150px;
 }
+
+#licenses-statement {
+  text-align: center;
+}
+
+#licenses-dpw h3 {
+  text-align: center;
+}
+
+#licenses-gpl h3 {
+  text-align: center;
+}
