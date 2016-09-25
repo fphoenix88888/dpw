@@ -65,3 +65,11 @@ jQuery(function($) {
 	$(document).ready(function(){
 		$('[data-toggle="tooltip"]').tooltip(); 
 	});
+
+	$(document).ready(function(){
+		$("#sidebar").affix({
+			offset: { 
+				top: 300 
+			}
+		});
+	});
