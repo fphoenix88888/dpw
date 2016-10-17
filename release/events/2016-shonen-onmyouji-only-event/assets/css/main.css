@@ -261,7 +261,7 @@ ul li {
 }
 
 .bg-image-1 {
-    background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;
+    background: url(../images/backgrounds/bg-1.png) no-repeat center center/cover;
 }
 
 .bg-image-1::before {
@@ -269,7 +269,7 @@ ul li {
 }
 
 .bg-image-2 {
-    background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
+    background: url(../images/backgrounds/bg-2.png) no-repeat center bottom/cover;
 }
 
 .bg-image-2::before {
@@ -654,6 +654,45 @@ ul li {
 
 .rules .section-title {
     margin: 0 0 25px;
+}
+
+.rules .panel-heading {
+    cursor: pointer;
+}
+
+.rules .rules-toggle.collapsed::before {
+    font-family: "Ionicons";
+    content: "\f218";
+    -webkit-transition: 0.5s linear ease-out;
+    transition: 0.5s linear ease-out;
+    position: absolute;
+    left: 15px;
+}
+
+.rules .rules-toggle::before {
+    position: absolute;
+    left: 15px;
+    font-family: "Ionicons";
+    content: "\f209";
+}
+
+.rules .panel-group .panel+.panel {
+    margin-top: 15px;
+}
+
+.rules .panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #000000;
+    border-color: #000;
+    border-radius: 0;
+    padding: 0;
+}
+
+.rules .panel-default>.panel-heading a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    padding: 15px 15px 15px 35px;
 }
 
 @media (min-width: 768px) {
