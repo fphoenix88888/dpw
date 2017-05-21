@@ -1155,3 +1155,15 @@ ul.faq li > div h3 {
   width: 100%;
   border: 0;
 }
+
+#bg1 {
+  background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url(../images/home-slider/bg1.jpg);
+}
+}
